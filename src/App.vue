@@ -6,7 +6,7 @@
     <!-- Input field for adding new todos -->
     <div style="display: flex; align-items: center;">
       <input v-model="newTodo" @keyup.enter="addTodo" placeholder="Add new todo" style="flex: 1; margin-right: 5px;" />
-      <button @click="addTodo" style="font-size: 1.2em;">✔️</button>
+      <button @click="addTodo" style="font-size: 1.0em;">✔️</button>
     </div>
 
     <!-- Component responsible for displaying the list of todos -->
