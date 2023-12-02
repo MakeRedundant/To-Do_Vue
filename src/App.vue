@@ -4,13 +4,15 @@
     <h1>My Todo App</h1>
 
     <!-- Input field for adding new todos -->
-    <input v-model="newTodo" @keyup.enter="addTodo" placeholder="Add new todo" />
+    <div style="display: flex; align-items: center;">
+      <input v-model="newTodo" @keyup.enter="addTodo" placeholder="Add new todo" style="flex: 1; margin-right: 5px;" />
+      <button @click="addTodo" style="font-size: 1.2em;">✔️</button>
+    </div>
 
     <!-- Component responsible for displaying the list of todos -->
     <TodoList :todos="todos" @remove="removeTodo" />
   </div>
 </template>
-
 <!--template section contains the HTML structure of the component.--->
 <!--<input v-model="newTodo" @keyup.enter="addTodo" placeholder="Add new todo" /> 
   is an input field bound to the newTodo variable using v-model. -->
