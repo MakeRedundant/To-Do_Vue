@@ -19,6 +19,15 @@
 
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
+//import from vue, defineComponent, ref: ref , onMounted
+/*
+defineComponent: This is a function provided by Vue 3's Composition API. It's used to define a new component.
+
+ref: ref is a Vue 3 Composition API function used to create reactive references to a value.
+
+onMounted: onMounted is a Vue 3 Composition API hook that runs a given function when the component is mounted to the DOM.
+
+*/
 import TodoList from "./components/TodoList.vue";
 
 export default defineComponent({
@@ -37,11 +46,17 @@ export default defineComponent({
     
     // Load todos from local storage when the component is mounted
     onMounted(() => {
-      const storedTodos = localStorage.getItem('todos');
-      if (storedTodos) {
-        todos.value = JSON.parse(storedTodos);
-      }
-    });
+  // Retrieving todos from local storage when the component is mounted
+
+  // Retrieve the 'todos' data from local storage
+  const storedTodos = localStorage.getItem('todos');
+
+  // If there are stored todos in local storage, update the todos variable
+  if (storedTodos) {
+    // Parse the retrieved data from local storage (stored as a string) back to an array
+    todos.value = JSON.parse(storedTodos);
+  }
+});
 
 
     // Function to add a new todo to the todos array
