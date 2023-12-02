@@ -18,34 +18,57 @@
   It receives the todos array as a prop and listens for the remove event to handle todo removal.-->
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, onMounted } from 'vue';
 import TodoList from "./components/TodoList.vue";
 
 export default defineComponent({
-  name: 'App',
-  components: {
-    TodoList,
-  },
-  setup() {
-    const newTodo = ref('');
-    const todos = ref<string[]>([]);
+  name: 'App', // Name of the component
 
+  components: {
+    TodoList, // Importing the TodoList component to use in this component
+  },
+
+  setup() {
+    // Using the Composition API setup() function to define reactive data and methods
+
+    // Creating reactive variables to store data
+    const newTodo = ref(''); // Represents the input field for adding new todos
+    const todos = ref<string[]>([]); // Stores the list of todos as an array of strings
+    
+    // Load todos from local storage when the component is mounted
+    onMounted(() => {
+      const storedTodos = localStorage.getItem('todos');
+      if (storedTodos) {
+        todos.value = JSON.parse(storedTodos);
+      }
+    });
+
+
+    // Function to add a new todo to the todos array
     function addTodo() {
       if (newTodo.value.trim() !== '') {
-        todos.value.push(newTodo.value);
-        newTodo.value = '';
+        todos.value.push(newTodo.value); // Pushes the new todo into the todos array
+        newTodo.value = ''; // Clears the input field after adding the todo
+        saveTodosToLocalStorage(); 
       }
     }
 
+    // Function to remove a todo item from the todos array based on its index
     function removeTodo(index: number) {
-      todos.value.splice(index, 1);
+      todos.value.splice(index, 1); // Removes the todo at the specified index from the todos array
+      saveTodosToLocalStorage();
     }
 
+    function saveTodosToLocalStorage() {
+      localStorage.setItem('todos', JSON.stringify(todos.value));
+    }
+
+    // Returning data and methods that can be accessed in the template
     return {
-      newTodo,
-      todos,
-      addTodo,
-      removeTodo,
+      newTodo, // The input value for adding new todos
+      todos, // The array containing all the todos
+      addTodo, // Function to add a new todo
+      removeTodo, // Function to remove a todo
     };
   },
 });
