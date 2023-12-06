@@ -2,6 +2,9 @@
   <div id="app">
     <!-- The main container of our app -->
     <h1>My Todo App</h1>
+    <p>First Vue App</p>
+
+
 
     <!-- Input field for adding new todos -->
     <div style="display: flex; align-items: center;">
@@ -12,6 +15,7 @@
     <!-- Component responsible for displaying the list of todos -->
     <TodoList :todos="todos" @remove="removeTodo" />
   </div>
+  <Footer>Made by Brian Trang</Footer>
 </template>
 <!--template section contains the HTML structure of the component.--->
 <!--<input v-model="newTodo" @keyup.enter="addTodo" placeholder="Add new todo" /> 
