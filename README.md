@@ -7,13 +7,17 @@
 ![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
-![Inquirer Version](https://img.shields.io/badge/Inquirer-8.2.4-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-100%25-yellow.svg)
-![File System](https://img.shields.io/badge/File%20System-Implemented-green.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-blue.svg)
+![Vite](https://img.shields.io/badge/Vite-5.0.0-yellow.svg)
+![Vue](https://img.shields.io/badge/Vue-4.5.0-green.svg)
+![npm](https://img.shields.io/badge/npm-Latest-yellow.svg)
+
 
 
 ## 📄 Description 
-todo
+
+
 
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
