@@ -13,20 +13,22 @@
 ![Vue](https://img.shields.io/badge/Vue-4.5.0-green.svg)
 ![npm](https://img.shields.io/badge/npm-Latest-yellow.svg)
 
-
-
 ## 📄 Description 
 
+Basic Todo App
 
+This basic Todo App is crafted with Vue.js, Vite for rapid development, and TypeScript for improved code organization and clarity. Together, these technologies converge to deliver an efficient and user-centric experience.
+
+Equipped with local storage integration, the app retains your tasks between sessions, ensuring no task is lost. Its drag-and-drop functionality streamlines task management, offering a hassle-free experience.
 
 ## 🪛 Technologies used 
 <p><a href="https://nodejs.org/">Node.js</a></p>
 <p><a href="https://www.npmjs.com/">NPM</a></p>
-<p><a href="https://www.npmjs.com/package/express">Express.js</a></p>
-<p><a href="https://www.npmjs.com/package/mysql2">MySQL2</a></p>
-<p><a href="https://www.npmjs.com/package/sequelize">Sequelize</a></p>
-<p><a href="https://www.npmjs.com/package/dotenv">dotenv</a></p>
-<p><a href="https://heroku.com/">Heroku</a></p>
+<p><a href="https://nodejs.org/">Node.js</a></p>
+<p><a href="https://www.npmjs.com/">NPM</a></p>
+<p><a href="https://www.typescriptlang.org/">TypeScript</a></p>
+<p><a href="https://vitejs.dev/">Vite</a></p>
+<p><a href="https://vuejs.org/">Vue</a></p>
   
 ## 📓 Table of Contents
 - [Todo App -Vue](#todo-app--vue)
@@ -35,31 +37,46 @@
   - [📓 Table of Contents](#-table-of-contents)
   - [🖥️ Installation](#️-installation)
   - [💬 Usage](#-usage)
-  - [🖼️ Screenshot](#️-screenshot)
-  - [📹 Video](#-video)
+  - [� Video](#-video)
   - [⚖️ License](#️-license)
   - [🤝 Contributing](#-contributing)
   - [🛠️ Tests](#️-tests)
   - [❔ Questions](#-questions)
     
 ## 🖥️ Installation 
- npm i
+
+You can use our deployed link
+
+https://to-do-vue-theta.vercel.app
+
+or you can do a ```git clone```
+
+
+To install our dependencies run
+ ```npm install```
+
+and finally run 
+
+```npm run dev```
+
+to start the local host server
+
   
 ## 💬 Usage 
-da
+Users can utilise the app to save to-dos which are stored on the local storage. Users can delete notes and drag and drop the order.
 
-
-## 🖼️ Screenshot
-![Alt Text] (![Alt Text] (./assets/gif/your Gif here))
-
+Homepage
+![Homepage](./assets/Homepage.png)
 
 ## 📹 Video
+To do gif
+![gif](./assets/To-do.gif)
   
 ## ⚖️ License 
 This project is licensed under MIT
   
 ## 🤝 Contributing 
-da
+Brian Trang
   
 ## 🛠️ Tests
 N/A
