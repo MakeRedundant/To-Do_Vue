@@ -40,14 +40,16 @@ This basic Todo App is crafted with Vue.js, Vite for rapid development, and Type
 
 Equipped with local storage integration, the app retains your tasks between sessions, ensuring no task is lost. Its drag-and-drop functionality streamlines task management, offering a hassle-free experience.
 
-## 🪛 Technologies used 
-<p><a href="https://nodejs.org/">Node.js</a></p>
-<p><a href="https://www.npmjs.com/">NPM</a></p>
-<p><a href="https://nodejs.org/">Node.js</a></p>
-<p><a href="https://www.npmjs.com/">NPM</a></p>
-<p><a href="https://www.typescriptlang.org/">TypeScript</a></p>
-<p><a href="https://vitejs.dev/">Vite</a></p>
-<p><a href="https://vuejs.org/">Vue</a></p>
+## 🪛 Technologies used
+
+| Technology   | Description                        | Link                                         |
+|--------------|------------------------------------|----------------------------------------------|
+| Node.js      | Server-side JavaScript runtime      | [Node.js](https://nodejs.org/)               |
+| NPM          | Node.js Package Manager            | [NPM](https://www.npmjs.com/)               |
+| TypeScript   | Typed superset of JavaScript        | [TypeScript](https://www.typescriptlang.org/)|
+| Vite         | Next-generation frontend tooling    | [Vite](https://vitejs.dev/)                  |
+| Vue          | Progressive JavaScript framework    | [Vue](https://vuejs.org/)                    |
+
   
 ## 🖥️ Installation 
 
