@@ -13,6 +13,25 @@
 ![Vue](https://img.shields.io/badge/Vue-4.5.0-green.svg)
 ![npm](https://img.shields.io/badge/npm-Latest-yellow.svg)
 
+## 📓 Table of Contents
+- [Todo App -Vue](#todo-app--vue)
+  - [📓 Table of Contents](#-table-of-contents)
+  - [💡🏡 Lighthouse](#-lighthouse)
+  - [📄 Description](#-description)
+  - [🪛 Technologies used](#-technologies-used)
+  - [🖥️ Installation](#️-installation)
+  - [💬 Usage](#-usage)
+  - [📹 Video](#-video)
+  - [⚖️ License](#️-license)
+  - [🤝 Contributing](#-contributing)
+  - [🛠️ Tests](#️-tests)
+  - [❔ Questions](#-questions)
+
+## 💡🏡 Lighthouse
+This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
+
+![Lighthouse](./assets/Lighthouse.png)
+
 ## 📄 Description 
 
 Basic Todo App
@@ -30,19 +49,6 @@ Equipped with local storage integration, the app retains your tasks between sess
 <p><a href="https://vitejs.dev/">Vite</a></p>
 <p><a href="https://vuejs.org/">Vue</a></p>
   
-## 📓 Table of Contents
-- [Todo App -Vue](#todo-app--vue)
-  - [📄 Description](#-description)
-  - [🪛 Technologies used](#-technologies-used)
-  - [📓 Table of Contents](#-table-of-contents)
-  - [🖥️ Installation](#️-installation)
-  - [💬 Usage](#-usage)
-  - [� Video](#-video)
-  - [⚖️ License](#️-license)
-  - [🤝 Contributing](#-contributing)
-  - [🛠️ Tests](#️-tests)
-  - [❔ Questions](#-questions)
-    
 ## 🖥️ Installation 
 
 You can use our deployed link
